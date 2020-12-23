@@ -28,8 +28,7 @@
     "version": "is-prerelease || npm run update-changelog && git add CHANGELOG.md",
     "update-changelog": "conventional-changelog -p videojs -i CHANGELOG.md -s",
     "watch": "npm-run-all -p watch:*",
-    "watch:js": "npm run build:js -- -w",
-    "postinstall": "cd ./node_modules/mpd-parser && npm install && npm run build-prod"
+    "watch:js": "npm run build:js -- -w"
   },
   "keywords": [
     "videojs",
